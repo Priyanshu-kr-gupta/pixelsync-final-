@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Css/Results.css"
+import Resultlink from './Resultlink.jsx'
 export default function Results() {
 
     const fetchImages = () =>{
@@ -21,7 +22,7 @@ export default function Results() {
             </div>
         </div>
          <div className='results'>
-                fch
+                <Resultlink title="sdgsd" description="sdgfs"/>
         </div>
 
     </div>
