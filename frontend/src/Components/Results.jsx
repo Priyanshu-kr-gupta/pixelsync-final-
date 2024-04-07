@@ -3,8 +3,14 @@ import "../Css/Results.css"
 import Resultlink from './Resultlink.jsx'
 export default function Results() {
 
-    const fetchImages = () =>{
-
+    const fetchImages = async() =>{
+        const data=await fetch("https://serpapi.com/search",{
+            method: 'GET',
+            q: "apple",
+            engine: "google",
+            api_key: "158225f2185db5a43bf8ff49b05ddacb63cec20af1d79ab4d50348d14a32aa35"
+        })
+        console.log(data)
     }
     const fetchLinks = () =>{
         
