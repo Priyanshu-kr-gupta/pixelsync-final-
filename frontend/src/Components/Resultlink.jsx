@@ -4,12 +4,12 @@ export default function Resultlink(props) {
   return (
     <a href='#' className='searchresults'>
         
-        <div>
+        <div className='searchResultBox'>
             <div className='searchResultTitle'>
-
+                {props.title}
             </div>
             <div className='searchResultdescription'>
-
+                {props.description}
             </div>
         </div>
     </a>

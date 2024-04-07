@@ -22,7 +22,11 @@ export default function Results() {
             </div>
         </div>
          <div className='results'>
-                <Resultlink title="sdgsd" description="sdgfs"/>
+                <Resultlink title="sdgsd" description="sdgfsxcvhzxhf v zjxhcvhjzbxchjvbz gxbvh zbcxhbhv zcbx zbxcvbz x"/>
+                <Resultlink title="sdgsd" description="sdgfs loremdfgsdfgsdhgfhus gd had"/>
+                <Resultlink title="sdgsd" description="sdgfs dfgs dfg"/>
+                <Resultlink title="sdgsd" description="sdgfs sdfgsd fgsdfgs dfg sdfg sf"/>
+                <Resultlink title="sdgsd" description="sdgfs sdf gsdfg sdfg sfg"/>
         </div>
 
     </div>

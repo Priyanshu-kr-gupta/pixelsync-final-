@@ -2,3 +2,21 @@
     margin: 0;
     padding: 0;
 }
+.searchresults{
+   all: unset;
+   cursor: pointer;
+ 
+}
+.searchresults:hover{
+   border-bottom: 2px solid black;
+   color: blueviolet;
+}
+.searchResultBox{
+    /* background-color: aqua; */
+    width: clamp(300px,50vw,600px);
+    margin-bottom: 2vh;
+}
+.searchResultTitle{
+    font-size: 25px;
+    font-weight: 700;
+}
