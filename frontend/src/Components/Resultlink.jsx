@@ -2,7 +2,7 @@ import React from 'react'
 import "../Css/Resultlink.css"
 export default function Resultlink(props) {
   return (
-    <a href='#' className='searchresults'>
+    <a href={props.url} className='searchresults'>
         
         <div className='searchResultBox'>
             <div className='searchResultTitle'>

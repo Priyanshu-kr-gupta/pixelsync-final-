@@ -19,7 +19,7 @@ function App() {
   )
 }
 const AppStyle = styled.div`
-
+  
 .darkMode{
   height: 100vh;
   *{
