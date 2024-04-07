@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Route, Routes } from "react-router-dom";
 import { SearchHomePage } from './components/SearchHomePage';
+import Results from "./components/Results"
 import styled from "styled-components"
 function App() {
    
@@ -10,7 +11,8 @@ function App() {
     <AppStyle>
       <div className= {dark? "darkMode" : "dayMode"} >
           <Routes>
-          <Route path="/" element={<SearchHomePage dark={dark} setDark={ setDark} />}></Route>
+          <Route path="/" element={<SearchHomePage dark={dark} setDark={setDark} />}></Route>
+          <Route path="/search/:id" element={<Results/>}></Route>
           </Routes>
         </div>
     </AppStyle>
